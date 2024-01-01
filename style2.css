@@ -1,5 +1,8 @@
 :root{
     --bg2:black;
+    --f: to right,#ffffff,#fcc017,#f8ff00;
+   --g:#969696,#dadada,#ffffff;
+   --dm:#f8ff00;
 }
 
 .circle{
@@ -11,4 +14,31 @@
     top:0;
     left:0;
     z-index: -5;
+    background-image:linear-gradient(var(--f));
 }
+
+#style1{
+    height:25px;
+    width:25px;
+    background-color:var(--dm);
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+    right:105px;
+    top: 2px;
+    
+    
+  }
+ #style2{
+    height:15px;
+    width:15px;
+    background-color:#000000;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 3;
+    right:105px;
+    top: 2px;
+    visibility:hidden;
+ }
+    
+

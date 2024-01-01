@@ -17,12 +17,18 @@ const font="black";
       r.style.setProperty('--bg', 'black');
       r.style.setProperty('--font', 'white');
       r.style.setProperty('--bg2', 'white');
-
+      r.style.setProperty('--f', 'to right,#969696,#dadada,#ffffff');
+      r.style.setProperty('--dm', '#c7e8ff');
+      document.querySelector("#style2").style.visibility = "visible";
+     
     } else {
      
       r.style.setProperty('--bg', 'initial');
       r.style.setProperty('--font', 'initial');
       r.style.setProperty('--bg2', 'black');
+      r.style.setProperty('--f', 'initial');
+      r.style.setProperty('--dm', '#f8ff00');
+      document.querySelector("#style2").style.visibility = "hidden";
     }
   });
   const typed = new Typed('#sentence', {

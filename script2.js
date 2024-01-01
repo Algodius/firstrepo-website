@@ -1,11 +1,11 @@
 const coords={x:0,y:0};
 const circles=document.querySelectorAll(".circle");
 
-const colors=["gray","white"];
+const colors=["#ffffff","#fcc017","#f8ff00"];
 circles.forEach(function(circle){
     circle.x=0;
     circle.y=0;
-  //  circle.style.backgroundColor =colors[index % colors.length];
+  /* circle.style.backgroundImage=colors[index % colors.length]; */
 })
  
 window.addEventListener("mousemove",function(e){
